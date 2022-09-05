@@ -15,10 +15,6 @@ import matplotlib.pyplot as plt
 #weekdays = C:\Users\ruveb\Desktop\GIS311\Data\Section 1\johannesburg-gpzones-2020-1-OnlyWeekdays-MonthlyAggregate.csv
 #weekends = C:\Users\ruveb\Desktop\GIS311\Data\Section 1\johannesburg-gpzones-2020-1-OnlyWeekends-MonthlyAggregate.csv
 #accept csv files as input
-df_weekdays = input('Please enter file path to weekdays data, remember to add .csv')
-df_weekends = input('Please enter file path to weekends data, remember to add .csv')
-df_weekdays = str(df_weekdays)
-df_weekends = str(df_weekends)
 df_weekdays = pd.read_csv(r'C:\Users\ruveb\Desktop\GIS311\Data\Section 1\johannesburg-gpzones-2020-1-OnlyWeekdays-MonthlyAggregate.csv')
 df_weekends = pd.read_csv(r'C:\Users\ruveb\Desktop\GIS311\Data\Section 1\johannesburg-gpzones-2020-1-OnlyWeekends-MonthlyAggregate.csv')
 
